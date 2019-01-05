@@ -1,0 +1,48 @@
+<!-- <van-row gutter="20">
+  <van-col span="6"><van-icon name="exchange" />模拟组合</van-col>
+  <van-col span="6">金股推荐</van-col>
+  <van-col span="6">行业预测</van-col>
+  <van-col span="6">投资建议</van-col>
+</van-row>
+<van-row gutter="20">
+  <van-col span="6">深度报告</van-col>
+  <van-col span="6">调研报告</van-col>
+  <van-col span="6">会议报告</van-col>
+  <van-col span="6">路演报告</van-col>
+</van-row> -->
+<!-- <van-tabbar active="{{ active }}" bind:change="onChange">
+  <van-tabbar-item icon="chat">模拟组合</van-tabbar-item>
+  <van-tabbar-item icon="chat">金股推荐</van-tabbar-item>
+  <van-tabbar-item icon="records">行业预测</van-tabbar-item>
+  <van-tabbar-item icon="chat">投资建议</van-tabbar-item>
+</van-tabbar> -->
+<swiper class="lunbo" indicator-dots='true' autoplay='true' interval='2000'>
+<swiper-item><image src='../images/1.jpg'></image></swiper-item>
+<swiper-item><image src="../images/2.jpg"></image></swiper-item>
+<swiper-item><image src="../images/3.jpg"></image></swiper-item>
+</swiper>
+<van-tabbar active="{{ active }}" fixed="{{fixed}}" bind:change="onChange">
+  <van-tabbar-item icon="wap-nav" id="mock">模拟组合</van-tabbar-item>
+  <van-tabbar-item icon="gold-coin" id="gold">金股推荐</van-tabbar-item>
+  <van-tabbar-item icon="aim" id="industry">行业预测</van-tabbar-item>
+  <van-tabbar-item icon="pending-evaluate" id="advice">投资建议</van-tabbar-item>
+</van-tabbar>
+<van-tabbar active="{{ noactive }}" fixed="{{fixed}}" bind:change="onChange">
+  <van-tabbar-item icon="records">深度报告</van-tabbar-item>
+  <van-tabbar-item icon="pending-orders">调研报告</van-tabbar-item>
+  <van-tabbar-item icon="idcard">会议报告</van-tabbar-item>
+  <van-tabbar-item icon="sign">路演报告</van-tabbar-item>
+</van-tabbar>
+<view class="container1">
+  <view class="section">
+   <!-- <view class="line"></view>  -->
+   <!-- <rich-text nodes="{{nodes}}" bindtap="tap"></rich-text> -->
+   <view class="line"></view>
+   <!-- <van-button type="primary">按钮</van-button>
+   <icon type='success' color='blue' size='23px'></icon>  -->
+   <canvas canvas-id="pieCanvas" disable-scroll="true" class="canvas" ></canvas>
+   <canvas canvas-id="lineCanvas" disable-scroll="false" class="canvas" ></canvas>
+   <canvas canvas-id="columnCanvas" disable-scroll="false" class="canvas" ></canvas>
+   
+</view>
+</view>

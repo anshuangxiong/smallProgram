@@ -1,0 +1,34 @@
+<!--pages/mock/mock.wxml-->
+<van-row gutter="20">
+  <van-col span="12">
+    <van-panel  title="超级小金牛" desc=" 养老基金主要利用存量资金选择5只指数基金和货币基金进行配置，并定期根据市场或估值变化进行动态...">
+      <view class="income">收益率：
+        <text class="text">12.34%</text>
+      </view>
+    </van-panel>
+  </van-col>
+  <van-col span="12">
+    <van-panel title="沙中淘金" desc=" 养老基金主要利用存量资金选择5只指数基金和货币基金进行配置，并定期根据市场或估值变化进行动态...">
+     <view class="income">收益率：
+     <text class="text">0.56%</text>
+     </view>
+    </van-panel>
+  </van-col>
+</van-row>
+
+<van-row gutter="20">
+  <van-col span="12">
+    <van-panel  title="绿巨人" desc=" 养老基金主要利用存量资金选择5只指数基金和货币基金进行配置，并定期根据市场或估值变化进行动态...">
+      <view class="income">收益率：
+        <text class="text">4.72%</text>
+      </view>
+    </van-panel>
+  </van-col>
+  <van-col span="12">
+    <van-panel title="风呼呼吹" desc=" 养老基金主要利用存量资金选择5只指数基金和货币基金进行配置，并定期根据市场或估值变化进行动态...">
+      <view class="income">收益率：
+     <text class="text">-6.35%</text>
+      </view>
+    </van-panel>
+  </van-col>
+</van-row>
