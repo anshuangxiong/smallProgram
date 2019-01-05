@@ -41,8 +41,8 @@
    <!-- <van-button type="primary">按钮</van-button>
    <icon type='success' color='blue' size='23px'></icon>  -->
    <canvas canvas-id="pieCanvas" disable-scroll="true" class="canvas" ></canvas>
-   <canvas canvas-id="lineCanvas" disable-scroll="false" class="canvas" ></canvas>
-   <canvas canvas-id="columnCanvas" disable-scroll="false" class="canvas" ></canvas>
+   <!-- <canvas canvas-id="lineCanvas" disable-scroll="false" class="canvas" ></canvas>
+   <canvas canvas-id="columnCanvas" disable-scroll="false" class="canvas" ></canvas> -->
    
 </view>
 </view>
