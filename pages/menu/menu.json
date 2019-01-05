@@ -7,7 +7,11 @@
     "van-tabbar": "/pages/dist/tabbar/index",
     "van-tabbar-item": "/pages/dist/tabbar-item/index",
     "van-panel": "/pages/dist/panel/index",
-    "van-search": "/pages/dist/search/index"
+    "van-search": "/pages/dist/search/index",
+    "van-cell": "/pages/dist/cell/index",
+    "van-cell-group": "/pages/dist/cell-group/index",
+    "van-collapse": "/pages/dist/collapse/index",
+    "van-collapse-item": "/pages/dist/collapse-item/index"
     
   }
 }

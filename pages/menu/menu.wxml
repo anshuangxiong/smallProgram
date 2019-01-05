@@ -5,8 +5,19 @@
 <swiper-item><image src="../images/3.jpg"></image></swiper-item>
 <swiper-item><image src="../images/4.jpg"></image></swiper-item>
 </swiper>
-<van-tabbar active="{{ active }}" bind:change="onChange">
-  <van-tabbar-item icon="home">主页</van-tabbar-item>
+<van-collapse value="{{ activeNames }}" accordion bind:change="onChange">
+  <van-collapse-item title="八达岭长城" name="1">
+    八达岭长城史称天下九塞之一，在明长城中保存最好，是万里长城向游人开发最早的地段
+  </van-collapse-item>
+  <van-collapse-item title="颐和园" name="2">
+    网店吸粉获客、会员分层营销、一机多种收款，告别经营低效和客户流失
+  </van-collapse-item>
+  <van-collapse-item title="北京市奥林匹克公园" name="3">
+    线上拓客，随时预约，贴心顺手的开单收银
+  </van-collapse-item>
+</van-collapse>
+<van-tabbar active="{{ active }}" bind:change="onChange1">
+  <van-tabbar-item icon="home-o">主页</van-tabbar-item>
   <van-tabbar-item icon="search">搜索</van-tabbar-item>
   <van-tabbar-item icon="setting">设置</van-tabbar-item>
   <van-tabbar-item icon="contact">我的</van-tabbar-item>
