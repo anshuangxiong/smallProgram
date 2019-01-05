@@ -20,6 +20,7 @@
 <swiper-item><image src='../images/1.jpg'></image></swiper-item>
 <swiper-item><image src="../images/2.jpg"></image></swiper-item>
 <swiper-item><image src="../images/3.jpg"></image></swiper-item>
+<swiper-item><image src="../images/4.jpg"></image></swiper-item>
 </swiper>
 <van-tabbar active="{{ active }}" fixed="{{fixed}}" bind:change="onChange">
   <van-tabbar-item icon="wap-nav" id="mock">模拟组合</van-tabbar-item>
