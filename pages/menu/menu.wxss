@@ -43,8 +43,14 @@
   margin-top: 30rpx;
 }
 .lunbo{
-  width:100%
+  width:100%;
+  height:200px;
+  --margin-left:2%;
+  --margin-right:2%;
 }
 .lunbo image{
-  width:100%
+  width:100%;
+}
+.search{
+  width:100%;
 }

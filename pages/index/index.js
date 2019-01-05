@@ -54,7 +54,7 @@ Page({
            icon: 'success',
            duration: 2000
          });
-         console.log("登录成功");
+        // console.log("登录成功");
          wx.navigateTo({
            url: '/pages/menu/menu?userId=' + this.data.phone　　// 页面 A
          })

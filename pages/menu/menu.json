@@ -6,7 +6,8 @@
     "van-icon": "/pages/dist/icon/index",
     "van-tabbar": "/pages/dist/tabbar/index",
     "van-tabbar-item": "/pages/dist/tabbar-item/index",
-    "van-panel": "/pages/dist/panel/index"
+    "van-panel": "/pages/dist/panel/index",
+    "van-search": "/pages/dist/search/index"
     
   }
 }

@@ -1,135 +1,21 @@
 Page({
   data: {
-    active:-1,
+    active:0,
     noactive:-1,
     fixed:false,
-    nodes: [{
-      type:'node',
-      name: 'table',
-      attrs: {
-        class: 'table',
-        style: 'line-height: 30px;',
-        width:'100%',
-      },
-      children: [{
-        type: 'node',
-        name: 'tr',
-        attrs: {
-          class: 'tr bg-g',
-        },
-        children:[{
-          type:'node',
-          attrs: {
-            class: 'td',
-          },
-          name:'td',
-          children: [
-          {
-            type: 'text',
-            text: '模拟组合',
-          }]
-        },
-        {
-          type: 'node',
-          name: 'td',
-          attrs: {
-            class: 'td',
-          },
-          children: [{
-           type: 'text',
-            text: '金股推荐',
-          }]
-        },
-          {
-            type: 'node',
-            name: 'td',
-            attrs: {
-              class: 'td',
-            },
-            children: [{
-              type: 'text',
-              text: '行业预测',
-            }]
-          },
-          {
-            type: 'node',
-            name: 'td',
-            attrs: {
-              class: 'td',
-            },
-            children: [{
-              type: 'text',
-              text: '投资建议',
-            }]
-          }]
-      },
-        {
-          type: 'node',
-          name: 'tr',
-          attrs: {
-            class: 'tr bg-g',
-          },
-          children: [{
-            type: 'node',
-            name: 'td',
-            attrs: {
-              class: 'td',
-            },
-            children: [{
-              type: 'text',
-              text: '深度报告',
-            }]
-          },
-          {
-            type: 'node',
-            name: 'td',
-            attrs: {
-              class: 'td',
-            },
-            children: [{
-              type: 'text',
-              text: '调研报告',
-            }]
-          },
-            {
-              type: 'node',
-              name: 'td',
-              attrs: {
-                class: 'td',
-              },
-              children: [{
-                type: 'text',
-                text: '会议报告',
-              }]
-            },
-            {
-              type: 'node',
-              name: 'td',
-              attrs: {
-                class: 'td',
-              },
-              children: [{
-                type: 'text',
-                text: '路演报告',
-              }]
-            }]
-        }]
-    }]
   },
   tap() {
     console.log('tap')
   },
   onChange(event) {
-    console.log(event.detail);
-    console.log(event);
-    if (event.detail==0){
+    if (event.detail==5){
       wx.navigateTo({
         url: '/pages/mock/mock'
       })
     }
   },
   onLoad: function () {
-    console.log("menu 载入");
+    //console.log("menu 载入");
     // wx.drawCanvas({
     //   canvasId: 'firstCanvas',
     //   actions: context.getActions() // 获取绘图动作数组
