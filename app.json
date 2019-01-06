@@ -3,7 +3,8 @@
     "pages/index/index",
     "pages/logs/logs",
     "pages/my/my",
-    "pages/mock/mock"
+    "pages/mock/mock",
+    "pages/detail/detail"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -12,17 +13,17 @@
     "navigationBarTextStyle": "black"
   },
   "tabBar": {
-      "color": "#707070",
-      "selectedColor": "#1296db",
-      "borderStyle": "white",
-      "list": [
+    "color": "#707070",
+    "selectedColor": "#1296db",
+    "borderStyle": "white",
+    "list": [
       {
-          "iconPath": "/pages/images/home.png",
-          "selectedIconPath": "/pages/images/home-select.png",
-          "pagePath": "pages/index/index",
-          "text": "首页",
-          "clas": "menu-item",
-          "selected": "false"
+        "iconPath": "/pages/images/home.png",
+        "selectedIconPath": "/pages/images/home-select.png",
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "clas": "menu-item",
+        "selected": "false"
       },
       {
         "selectedIconPath": "/pages/images/heart-select.png",
@@ -33,15 +34,19 @@
         "selected": "false"
       },
       {
-          "selectedIconPath": "/pages/images/user-select.png",
-          "iconPath": "/pages/images/user.png",
-          "pagePath": "pages/my/my",
-          "text": "我的",
-          "clas": "menu-item",
-          "selected": "false"
+        "selectedIconPath": "/pages/images/user-select.png",
+        "iconPath": "/pages/images/user.png",
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "clas": "menu-item",
+        "selected": "false"
       }
-      
     ],
     "position": "bottom"
-  }
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": false
 }

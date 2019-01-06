@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "我的",
+  "component": true,
+  "usingComponents": {
+    "van-cell": "/pages/dist/cell/index",
+    "van-cell-group": "/pages/dist/cell-group/index"
+  }
+}
