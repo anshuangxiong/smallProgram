@@ -1,1 +1,23 @@
-{}
+{
+  "navigationBarTitleText": "商品详情",
+  "usingComponents": {
+    "van-button": "/pages/dist/button/index",
+    "van-row": "/pages/dist/row/index",
+    "van-col": "/pages/dist/col/index",
+    "van-icon": "/pages/dist/icon/index",
+    "van-tag": "/pages/dist/tag/index",
+    "van-tabbar": "/pages/dist/tabbar/index",
+    "van-tabbar-item": "/pages/dist/tabbar-item/index",
+    "van-panel": "/pages/dist/panel/index",
+    "van-search": "/pages/dist/search/index",
+    "van-cell": "/pages/dist/cell/index",
+    "van-cell-group": "/pages/dist/cell-group/index",
+    "van-collapse": "/pages/dist/collapse/index",
+    "van-collapse-item": "/pages/dist/collapse-item/index",
+    "van-notify": "/pages/dist/notify/index",
+    "van-notice-bar": "/pages/dist/notice-bar/index",
+    "van-goods-action": "/pages/dist/goods-action/index",
+    "van-goods-action-icon": "/pages/dist/goods-action-icon/index",
+    "van-goods-action-button": "/pages/dist/goods-action-button/index"
+  }
+}

@@ -1,2 +1,35 @@
 <!--pages/detail/detail.wxml-->
-<text>pages/detail/detail.wxml</text>
+<swiper class="lunbo">
+<swiper-item><image src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1546772821164&di=2e4f79e5a5f0dcbdb7fbfc8950013b0b&imgtype=0&src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F01a3aa59c3e009a801218e18361ac4.jpg%401280w_1l_2o_100sh.jpg'></image></swiper-item>
+<swiper-item><image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1546772821164&di=3e9f1f3ec4e411bb84c5838140dc14e5&imgtype=0&src=http%3A%2F%2Fpic36.photophoto.cn%2F20150829%2F0033034130017812_b.jpg"></image></swiper-item>
+<swiper-item><image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1546772821163&di=4d4b03d24c719e00f37782ba70393ced&imgtype=0&src=http%3A%2F%2Fpic27.photophoto.cn%2F20130510%2F0033033958543413_b.jpg"></image></swiper-item>
+<swiper-item><image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1546772821163&di=aed1737952c592650c89f552b4931110&imgtype=0&src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F019e3559c3e013a8012053f85d2ceb.jpg%401280w_1l_2o_100sh.jpg"></image>
+<image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1546772821163&di=eb629495bd8f97bba8b73f097135fbea&imgtype=0&src=http%3A%2F%2Fimg.pconline.com.cn%2Fimages%2Fupload%2Fupc%2Ftx%2Fphotoblog%2F1205%2F15%2Fc12%2F11629454_11629454_1337085143765.jpg"></image>
+<image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1546772821163&di=9a7ca3debee5339b72e8b2d2bf535efc&imgtype=0&src=http%3A%2F%2Fpic27.photophoto.cn%2F20130418%2F0034034871170311_b.jpg"></image>
+<image src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=1624922846,1044544998&fm=26&gp=0.jpg"></image></swiper-item>
+</swiper>
+<view>
+<text>八达岭长城史称天下九塞之一，在明长城中保存最好，是万里长城向游人开发最早的地段</text>
+</view>
+
+<van-goods-action>
+  <van-goods-action-icon
+    icon="chat-o"
+    text="客服"
+    bind:click="onClickIcon"
+  />
+  <van-goods-action-icon
+    icon="cart-o"
+    text="购物车"
+    bind:click="onClickIcon"
+  />
+  <van-goods-action-button
+    text="加入购物车"
+    type="warning"
+    bind:click="onClickButton"
+  />
+  <van-goods-action-button
+    text="立即购买"
+    bind:click="onClickButton"
+  />
+</van-goods-action>

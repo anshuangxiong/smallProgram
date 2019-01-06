@@ -1,5 +1,5 @@
 <van-search class='search' value="{{ value }}" placeholder="请输入搜索关键词" />
-<swiper class="lunbo" indicator-dots='true' autoplay='true' interval='2000'>
+<swiper bindtap='goodsDetail' class="lunbo" indicator-dots='true' autoplay='true' interval='2000'>
 <swiper-item><image src='http://img.pptjia.com/image/20180117/f4b76385a3ccdbac48893cc6418806d5.jpg'></image></swiper-item>
 <swiper-item><image src="http://pic1.win4000.com/pic/b/18/c1601227067.jpg"></image></swiper-item>
 <swiper-item><image src="http://pic40.photophoto.cn/20160723/1155116820768962_b.jpg"></image></swiper-item>

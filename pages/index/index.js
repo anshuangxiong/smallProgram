@@ -8,6 +8,11 @@ Page({
   tap() {
     console.log('tap')
   },
+  goodsDetail(){
+    wx.navigateTo({
+      url: '/pages/detail/detail',
+    })
+  },
   onChangeOfMainMenu(event) {
     console.log(event);
     this.setData({
