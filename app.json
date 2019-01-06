@@ -2,7 +2,7 @@
   "pages": [
     "pages/index/index",
     "pages/logs/logs",
-    "pages/menu/menu",
+    "pages/my/my",
     "pages/mock/mock"
   ],
   "window": {
@@ -10,5 +10,38 @@
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "户外旅游",
     "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+      "color": "#707070",
+      "selectedColor": "#1296db",
+      "borderStyle": "white",
+      "list": [
+      {
+          "iconPath": "/pages/images/home.png",
+          "selectedIconPath": "/pages/images/home-select.png",
+          "pagePath": "pages/index/index",
+          "text": "首页",
+          "clas": "menu-item",
+          "selected": "false"
+      },
+      {
+        "selectedIconPath": "/pages/images/heart-select.png",
+        "iconPath": "/pages/images/heart.png",
+        "pagePath": "pages/mock/mock",
+        "text": "收藏",
+        "clas": "menu-item",
+        "selected": "false"
+      },
+      {
+          "selectedIconPath": "/pages/images/user-select.png",
+          "iconPath": "/pages/images/user.png",
+          "pagePath": "pages/my/my",
+          "text": "我的",
+          "clas": "menu-item",
+          "selected": "false"
+      }
+      
+    ],
+    "position": "bottom"
   }
 }
