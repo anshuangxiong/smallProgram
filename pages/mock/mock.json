@@ -1,11 +1,11 @@
 {
   "usingComponents": {
-    "van-button": "/pages/dist/button/index",
-    "van-row": "/pages/dist/row/index",
-    "van-col": "/pages/dist/col/index",
-    "van-icon": "/pages/dist/icon/index",
-    "van-tabbar": "/pages/dist/tabbar/index",
-    "van-tabbar-item": "/pages/dist/tabbar-item/index",
-    "van-panel": "/pages/dist/panel/index"
+    "van-button": "/pages/component/vant/button/index",
+    "van-row": "/pages/component/vant/row/index",
+    "van-col": "/pages/component/vant/col/index",
+    "van-icon": "/pages/component/vant/icon/index",
+    "van-tabbar": "/pages/component/vant/tabbar/index",
+    "van-tabbar-item": "/pages/component/vant/tabbar-item/index",
+    "van-panel": "/pages/component/vant/panel/index"
   }
 }

@@ -1,19 +1,19 @@
 {
   "usingComponents": {
-    "van-button": "/pages/dist/button/index",
-    "van-row": "/pages/dist/row/index",
-    "van-col": "/pages/dist/col/index",
-    "van-icon": "/pages/dist/icon/index",
-    "van-tabbar": "/pages/dist/tabbar/index",
-    "van-tabbar-item": "/pages/dist/tabbar-item/index",
-    "van-panel": "/pages/dist/panel/index",
-    "van-search": "/pages/dist/search/index",
-    "van-cell": "/pages/dist/cell/index",
-    "van-cell-group": "/pages/dist/cell-group/index",
-    "van-collapse": "/pages/dist/collapse/index",
-    "van-collapse-item": "/pages/dist/collapse-item/index",
-    "van-notify": "/pages/dist/notify/index",
-    "van-notice-bar": "/pages/dist/notice-bar/index"
+    "van-button": "/pages/component/vant/button/index",
+    "van-row": "/pages/component/vant/row/index",
+    "van-col": "/pages/component/vant/col/index",
+    "van-icon": "/pages/component/vant/icon/index",
+    "van-tabbar": "/pages/component/vant/tabbar/index",
+    "van-tabbar-item": "/pages/component/vant/tabbar-item/index",
+    "van-panel": "/pages/component/vant/panel/index",
+    "van-search": "/pages/component/vant/search/index",
+    "van-cell": "/pages/component/vant/cell/index",
+    "van-cell-group": "/pages/component/vant/cell-group/index",
+    "van-collapse": "/pages/component/vant/collapse/index",
+    "van-collapse-item": "/pages/component/vant/collapse-item/index",
+    "van-notify": "/pages/component/vant/notify/index",
+    "van-notice-bar": "/pages/component/vant/notice-bar/index"
     
   }
 }

@@ -2,7 +2,7 @@
   "navigationBarTitleText": "我的",
   "component": true,
   "usingComponents": {
-    "van-cell": "/pages/dist/cell/index",
-    "van-cell-group": "/pages/dist/cell-group/index"
+    "van-cell": "/pages/component/vant/cell/index",
+    "van-cell-group": "/pages/component/vant/cell-group/index"
   }
 }
